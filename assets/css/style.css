@@ -1,0 +1,112 @@
+body {
+   
+}
+
+
+#header {
+    width: 40%;
+    height: 10%;
+    padding-left: 30px;
+    padding-top: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 1000;
+    background-color: rgba(255, 0, 149, 0.438);
+    margin-bottom: 1%
+
+}
+
+#instructions  {
+    width: 80%;
+    height: 35%;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 1000;
+    background-color: rgba(255, 0, 149, 0.438)
+
+}
+
+#moreinstructions {
+
+}
+
+#randomnumber {
+    width: 30%;
+    height: 20%;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 1000;
+    float: left;
+    margin-top: 1%;
+    background-color: rgba(255, 0, 149, 0.438)
+
+}
+
+#winslosses {
+    width: 20%;
+    padding-left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 1000;
+    float: left;
+    background-color: rgba(255, 0, 149, 0.438);
+    margin-top: 1%
+    
+    
+ 
+}
+
+.title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 1000;
+    
+    
+
+}
+
+#totalscore {
+    width: 30%;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 1000;
+    float: left;
+    margin-top: 1%;
+    background-color: rgba(255, 0, 149, 0.438)
+
+}
+
+#actualscore {
+    width: 30%;
+    padding: 20px;
+    margin-right: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 1000;
+    float:left;
+
+}
+
+#ruby {
+    float: left;
+    margin-left: 20px
+
+}
+
+#diamond {
+    float: left;
+    margin-left: 20px
+}
+
+#amber {
+    float: left;
+    margin-left: 20px
+}
+
+#emerald {
+    float: left;
+    margin-left: 20px
+}

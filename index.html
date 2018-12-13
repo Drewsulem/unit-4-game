@@ -1,0 +1,50 @@
+<DOCTYPE html>
+<html>
+<head>
+    <title>gems guessing game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+</head>
+<body background="assets/images/background.jpg">
+<div id="header">
+    <h1>Gem Counter!</h1>
+</div>
+<div id="instructions">
+    <p id="moreinstructions">
+        You will be given a random number at the start of the game. 
+        <br>
+        <br>
+        There are four gems below. By clicking on a crystal you will add a specific amount of points to your total score. 
+        <br>
+        <br>
+        You win the game by matching your total score to random number, you lose the game if your total score goes above the random number. 
+        <br>
+        <br>
+        The value of each gem is hidden from you until you click on it. 
+        <br>
+        <br>
+        Each time when you the game starts, the game will change the value of each gem.
+    </p>
+</div>
+<br>
+<div id="randomnumber">
+    <h3 id="actualnumber">Random Number: </h3>
+</div>
+<div id="winslosses">
+    <h3 class="title">Win:</h3>
+    <p id="win"></p>
+    <h3 class="title">Loss:</h3>
+    <p id="loss"></p>
+</div>
+<div id="totalscore">
+        <h3>Your total score is: 0</h3>
+    </div>
+<div id="actualscore"></div>
+<div id="ruby"><img src="assets/images/ruby.jpg" alt="Ruby"></div>
+<div id="diamond"><img src="assets/images/diamond.jpg" alt="Diamond"></div>
+<div id="amber"><img src="assets/images/amber.jpg" alt="Amber"></div>
+<div id="emerald"><img src="assets/images/emerald.jpg" alt="Emerald"></div>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+       <script src="assets/javascript/game.js"></script>
+</body>
+</html>
